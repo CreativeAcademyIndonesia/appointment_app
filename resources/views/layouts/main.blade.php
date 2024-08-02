@@ -9,7 +9,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500&display=swap"
         rel="stylesheet">
-    @vite('resources/css/app.css')
     <title>@yield('title')</title>
 </head>
 
@@ -27,6 +26,7 @@
 
     </footer>
     @include('layouts.script')
+    @vite('resources/js/app.js')
 
 </body>
 

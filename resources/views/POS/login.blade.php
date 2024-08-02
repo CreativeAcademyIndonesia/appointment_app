@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @vite('resources/css/app.css')
+    @vite('resources/js/app.js')
     <title>Login</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,8 +13,6 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.css" />
-
-
 </head>
 
 <body class="min-h-screen min-w-full grid grid-rows-1 bg-[#252836]">
